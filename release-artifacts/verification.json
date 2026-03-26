@@ -1,0 +1,40 @@
+{
+  "generated_at": "2026-03-26T10:50:07.510Z",
+  "base_url": "http://127.0.0.1:8080",
+  "demo_url": "https://llmfirewall.louyu.tech/playground",
+  "checks": {
+    "home_desktop": {
+      "hasVisualSection": false,
+      "productCardCount": 3,
+      "previewCount": 3,
+      "interactiveCount": 24,
+      "focusAfterTab": {
+        "tag": "A",
+        "id": "",
+        "className": "brand"
+      },
+      "htmlLangEn": "en",
+      "navProductsEn": "Products",
+      "htmlLangZh": "zh-CN",
+      "statusMissing": "请完整填写公司、联系人、工作邮箱、关注方向和当前场景。",
+      "missingState": "error",
+      "statusInvalid": "邮箱格式不正确，请使用工作邮箱。",
+      "invalidState": "error"
+    },
+    "home_mobile": {
+      "viewportWidth": 390,
+      "horizontalOverflow": 0,
+      "navDisplay": "none",
+      "hasHeaderActions": true,
+      "hasProductPreview": true
+    },
+    "product_firewall": {
+      "liveDemoHref": "https://llmfirewall.louyu.tech/playground",
+      "hasDemoSourceLink": true
+    }
+  },
+  "summary": {
+    "pass": true,
+    "reasons": []
+  }
+}

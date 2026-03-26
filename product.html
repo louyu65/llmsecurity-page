@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LLM Security | Product</title>
+    <meta
+      name="description"
+      content="LLM Security 产品详情页，展示核心能力、接入方式、适用场景和仓库依据。"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <div class="page-grid"></div>
+      <header class="site-header">
+        <a class="brand" href="./index.html">
+          <span class="brand-mark">LS</span>
+          <span class="brand-copy">
+            <strong>LLM Security</strong>
+            <small id="brand-subtitle"></small>
+          </span>
+        </a>
+
+        <nav class="site-nav" aria-label="Primary navigation">
+          <a id="nav-home" href="./index.html"></a>
+          <a id="nav-products" href="./index.html#products"></a>
+          <a id="nav-contact" href="./index.html#contact"></a>
+        </nav>
+
+        <div class="header-actions">
+          <div class="locale-switch" role="group" aria-label="Language switch">
+            <button type="button" class="locale-button" data-locale="zh">中文</button>
+            <button type="button" class="locale-button" data-locale="en">EN</button>
+          </div>
+          <a id="header-cta" class="button button-ghost header-cta" href="./index.html#contact"></a>
+        </div>
+      </header>
+
+      <main id="top">
+        <section id="product-hero" class="section product-hero reveal"></section>
+
+        <section id="product-stats-section" class="metrics-strip reveal" aria-label="Product metrics">
+          <div id="product-stats" class="metrics-strip-grid"></div>
+        </section>
+
+        <section id="product-details-section" class="section reveal">
+          <div class="section-heading">
+            <p id="details-eyebrow" class="eyebrow"></p>
+            <h2 id="details-title"></h2>
+            <p id="details-description"></p>
+          </div>
+          <div id="detail-sections" class="card-grid"></div>
+        </section>
+
+        <section id="product-usecases-section" class="section reveal">
+          <div class="section-heading">
+            <p id="usecases-eyebrow" class="eyebrow"></p>
+            <h2 id="usecases-title"></h2>
+            <p id="usecases-description"></p>
+          </div>
+          <div id="usecases-grid" class="card-grid"></div>
+        </section>
+
+        <section id="product-proof-section" class="section proof-section reveal">
+          <div class="proof-layout">
+            <div class="proof-panel">
+              <h3 id="sources-title"></h3>
+              <ul id="source-list" class="proof-list"></ul>
+            </div>
+            <div class="proof-panel">
+              <h3 id="related-title"></h3>
+              <div id="related-grid" class="card-grid"></div>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <div>
+          <strong>LLM Security</strong>
+          <p id="footer-note"></p>
+        </div>
+        <p id="footer-tagline"></p>
+      </footer>
+    </div>
+
+    <script src="./content-zh.js"></script>
+    <script src="./content-en.js"></script>
+    <script src="./site-content.js"></script>
+    <script src="./product.js"></script>
+  </body>
+</html>
