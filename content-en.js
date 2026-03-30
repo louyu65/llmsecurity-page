@@ -93,9 +93,11 @@ window.SITE_CONTENT_EN = {
   quickStart: {
     stepsTitle: "Integration Steps",
     demoTitle: "Live Demo",
-    demoDescription: "Open the LLM Firewall playground to see real input, detection signals, and action decisions.",
-    demoButton: "Open Playground",
+    demoDescription: "Two demo entries that map to runtime defense and content forensics.",
+    demoButton: "LLMFirewall Demo",
     demoUrl: "https://llmfirewall.louyu.tech/playground",
+    demoSecondaryButton: "GenDetector Demo",
+    demoSecondaryUrl: "https://gendetect.louyu.tech/",
     contactButton: "Book a Call",
     outcomeTitle: "Typical Outcomes",
     steps: [

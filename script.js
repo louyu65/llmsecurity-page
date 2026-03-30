@@ -254,12 +254,22 @@
     setText("quickstart-demo-title", copy.quickStart.demoTitle);
     setText("quickstart-demo-description", copy.quickStart.demoDescription);
     setText("quickstart-demo-button", copy.quickStart.demoButton);
+    setText("quickstart-demo-secondary", copy.quickStart.demoSecondaryButton || "");
     setText("quickstart-contact-button", copy.quickStart.contactButton);
     setText("quickstart-outcome-title", copy.quickStart.outcomeTitle);
 
     const demoButton = document.getElementById("quickstart-demo-button");
     if (demoButton && copy.quickStart.demoUrl) {
       demoButton.href = copy.quickStart.demoUrl;
+    }
+    const demoSecondaryButton = document.getElementById("quickstart-demo-secondary");
+    if (demoSecondaryButton) {
+      if (copy.quickStart.demoSecondaryUrl) {
+        demoSecondaryButton.href = copy.quickStart.demoSecondaryUrl;
+        demoSecondaryButton.style.display = "";
+      } else {
+        demoSecondaryButton.style.display = "none";
+      }
     }
 
     clearAndRender("quickstart-steps", copy.quickStart.steps, (item, index) =>

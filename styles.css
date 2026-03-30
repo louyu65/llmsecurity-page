@@ -860,6 +860,7 @@ h4 {
   align-items: center;
   gap: 10px;
   flex-wrap: wrap;
+  margin-top: 18px;
 }
 
 .proof-layout,

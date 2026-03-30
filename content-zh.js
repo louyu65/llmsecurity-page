@@ -93,9 +93,11 @@ window.SITE_CONTENT_ZH = {
   quickStart: {
     stepsTitle: "接入步骤",
     demoTitle: "在线演示",
-    demoDescription: "可直接打开 LLM Firewall Playground 查看输入、检测与动作决策输出。",
-    demoButton: "打开 Playground",
+    demoDescription: "两个演示入口，分别对应运行时防护与内容取证。",
+    demoButton: "LLMFirewall 演示",
     demoUrl: "https://llmfirewall.louyu.tech/playground",
+    demoSecondaryButton: "GenDetector 演示",
+    demoSecondaryUrl: "https://gendetect.louyu.tech/",
     contactButton: "预约沟通",
     outcomeTitle: "典型结果",
     steps: [
