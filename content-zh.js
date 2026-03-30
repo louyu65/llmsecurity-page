@@ -177,6 +177,8 @@ window.SITE_CONTENT_ZH = {
         "证据层支持语言特征、来源信号、规则命中和模型信号。",
         "适合接入人工复核、内容治理和合规流程。"
       ],
+      liveDemoLabel: "在线演示",
+      liveDemoUrl: "https://gendetect.louyu.tech/",
       cta: "查看详情",
       cardPreview: {
         label: "Forensics Output",
@@ -194,6 +196,7 @@ window.SITE_CONTENT_ZH = {
         subtitle: "目标不是生成一个更花哨的分数，而是提供可用于治理与复核的结构化结果。",
         primaryCta: "预约检测方案沟通",
         secondaryCta: "返回官网",
+        liveDemoCta: "打开在线演示",
         highlights: ["结构化结论", "证据优先", "修复建议", "可审计"],
         snapshotTitle: "适合什么问题",
         snapshot: ["内容审核与复核", "合规取证", "需要结构化治理结果的文本平台"],
@@ -213,7 +216,7 @@ window.SITE_CONTENT_ZH = {
           }
         ],
         useCases: ["内容审核与人工复核", "合规取证与内部风控", "需要审计轨迹的文本治理平台"],
-        sources: ["GenDetector/RULES.md", "RULES.md"]
+        sources: ["GenDetector/RULES.md", "RULES.md", "https://gendetect.louyu.tech/"]
       }
     },
     {

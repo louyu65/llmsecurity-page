@@ -177,6 +177,8 @@ window.SITE_CONTENT_EN = {
         "Supports language features, provenance signals, rule matches, and model signals.",
         "Fits moderation, governance, and human review workflows."
       ],
+      liveDemoLabel: "Live Demo",
+      liveDemoUrl: "https://gendetect.louyu.tech/",
       cta: "View Details",
       cardPreview: {
         label: "Forensics Output",
@@ -194,6 +196,7 @@ window.SITE_CONTENT_EN = {
         subtitle: "The goal is not a prettier score. The goal is structured output that works in moderation, review, and audit flows.",
         primaryCta: "Book a Forensics Review",
         secondaryCta: "Back to Home",
+        liveDemoCta: "Open Live Demo",
         highlights: ["Structured verdict", "Evidence-first", "Remediation", "Audit-ready"],
         snapshotTitle: "Best fit problems",
         snapshot: ["Content moderation and review", "Compliance forensics", "Platforms that need structured governance output"],
@@ -213,7 +216,7 @@ window.SITE_CONTENT_EN = {
           }
         ],
         useCases: ["Content moderation and human review", "Compliance forensics and internal risk workflows", "Text governance systems that need an audit trail"],
-        sources: ["GenDetector/RULES.md", "RULES.md"]
+        sources: ["GenDetector/RULES.md", "RULES.md", "https://gendetect.louyu.tech/"]
       }
     },
     {
